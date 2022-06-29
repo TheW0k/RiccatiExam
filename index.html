@@ -33,33 +33,48 @@
 			body {
 			margin-top: 60px;
 			}
+			.nav-item .active{
+				background-color: transparent !important;
+				border: 1px solid var(--primary);
+				border-radius: 5px;
+			}
+			.nav-item .nav-link{
+				padding-left: 5px;
+			}
 		</style>
 		<link rel="icon" type="image/x-icon" href="media/img/logo.png">
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<title>Giuriato Matteo</title>
 	</head>
 	<body>
-		<nav id="navbar-example2" class="navbar navbar-light bg-light px-3 fixed-top" >
-			<!--NavBar-->
-			<a class="navbar-brand" href="#" aria-disabled="true"></a>
-			<ul class="nav nav-pills">
-				<li class="nav-item">
-					<a class="nav-link" href="#scrollspyHeading1">Percorso Svolto</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#scrollspyHeading2">Evoluzione Esperienze</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#scrollspyHeading3">Riflessioni Esperienza</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#scrollspyHeading4">Orientamento Futuro</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-				</li>
-			</ul>
+		<nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-light px-3 fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="nav nav-pills navbar-nav me-auto">
+						<li class="nav-item mb-3">
+							<a class="nav-link" href="#scrollspyHeading1">Percorso Svolto</a>
+						</li>
+						<li class="nav-item mb-3">
+							<a class="nav-link" href="#scrollspyHeading2">Evoluzione Esperienze</a>
+						</li>
+						<li class="nav-item mb-3">
+							<a class="nav-link" href="#scrollspyHeading3">Riflessioni Esperienza</a>
+						</li>
+						<li class="nav-item mb-3">
+							<a class="nav-link" href="#scrollspyHeading4">Orientamento Futuro</a>
+						</li>
+						<li class="nav-item mb-3">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
+	
 		<div class="container">
 			<div class="container-fluid py-5" style="text-align: center;">
 				<div class="row" style="align-items: center;">
@@ -78,7 +93,7 @@
 				<h4>Percorso Svolto:</h4>
 				<div data-aos="flip-up" data-aos-duration="2500">
 					<div class="row">
-						<div class="col-4">
+						<div class="col-lg-4 mb-3">
 							<div class="bg-light border mb-2">
 								<center>
 									Attivit&agrave; 2020
@@ -95,7 +110,7 @@
 								</ol>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-lg-4 mb-3">
 							<div class="bg-light border mb-2">
 								<center>
 									Attivit&agrave; 2021
@@ -115,7 +130,7 @@
 								</ol>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-lg-4 mb-3">
 							<div class=" bg-light border mb-2">
 								<center>
 									Attivit&agrave; 2022
@@ -261,8 +276,6 @@
 			</div>
 		</footer>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();
